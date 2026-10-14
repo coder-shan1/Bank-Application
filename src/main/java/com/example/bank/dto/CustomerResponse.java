@@ -1,4 +1,4 @@
 package com.example.bank.dto;
 
-public class CustomerResponse {
+public record CustomerResponse(Long id, String name, String email) {
 }

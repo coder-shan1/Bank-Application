@@ -1,4 +1,4 @@
 package com.example.bank.dto;
 
-public class CustomerRequest {
+public record CustomerRequest(String name, String email) {
 }
